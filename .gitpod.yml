@@ -1,2 +1,4 @@
 tasks:
-  - init: apt update && apt install python3
+- init: >
+    apt update &&
+    apt install -y python3
