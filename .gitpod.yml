@@ -1,4 +1,1 @@
-tasks:
-- init: >
-    apt update &&
-    apt install -y python3
+image: python:3
